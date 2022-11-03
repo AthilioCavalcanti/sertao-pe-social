@@ -2,6 +2,8 @@
 ## Introdução
 Sertão-PE Social trata-se de um site que apresenta uma seleção de associações sociais rurais e urbanas presentes no sertão do estado de Pernambuco e tem como objetivo facilitar a busca de quem pesquisa por associações sem fins lucrativos que atuam nessa região.
 
+Este site foi desenvolvido através de uma parceria com a FreeHelper, uma startup social, sem fins lucrativos, que busca aproximar ONGs a voluntários especializados. Conheça mais sobre a FreeHelper [aqui](https://freehelper.com.br/).
+
 Os arquivos e pastas deste projeto:
 * __./index.html__: Código HTML que estrutura o site
 * __./css/__: Diretório que contém arquivos com extensão .css
