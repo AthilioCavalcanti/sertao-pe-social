@@ -17,7 +17,7 @@ Os arquivos e pastas deste projeto:
 * <span style="color:#1B3772; background-color:#ccc; padding: 0 10px;">**#1B3772**</span>
 * <span style="color:#00A19A; background-color:#ccc; padding: 0 10px;">**#00A19A**</span>
 * <span style="color:#FF9C00; background-color:#ccc; padding: 0 10px;">**#FF9C00**</span>
-* <span style="color:#FFFFFF; background-color:#ccc; padding: 0 10px;">**#FFFFFF**</span>
+* <span style="color:#FFFFFF; background-color:#ccc; padding: 0 10px;">{c:white}**#FFFFFF**{/c}</span>
 
 ## Tipografia
 * **Montserrat** (regular 400, semibold 600 e bold 700)
