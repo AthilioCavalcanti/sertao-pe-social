@@ -54,7 +54,7 @@ Cada bloco possui imediatamente um elemento filho **div.container** que auxilia 
 
 * <span style="text-decoration:underline;">**section #hero**</span>: Seção inicial da página, possuindo o **h1** da página,  um texto explicado o que é o site e uma **img**. 
 
-* <span style="text-decoration:underline;">**section #collected-data**</span>: Seção com dados coletados de algumas regiões do sertão pernabucano, possuindo um **header**, contendo um h2 como título da seção, **div.graphics**, contendo os gráficos que apresentão os dados, e **div.description**, que envolve a legenda e fonte dos dados dos graficos. 
+* <span style="text-decoration:underline;">**section #collected-data**</span>: Seção com dados coletados de algumas regiões do sertão pernambucano, possuindo um **header**, contendo um h2 como título da seção, **div.graphics**, contendo os gráficos que apresentão os dados, e **div.description**, que envolve a legenda e fonte dos dados dos graficos. 
 
 * <span style="text-decoration:underline;">**section #about-freehelper**</span>: Seção apresentando a Freehelper, possuindo um **header**, contendo um h2 como título da seção, e uma **div** contendo a logo da freehelper, um texto de apresentação e um link encaminhado para o site da organização.
 
