@@ -17,7 +17,7 @@ Os arquivos e pastas deste projeto:
 * <span style="color:#1B3772; background-color:#ccc; padding: 0 10px;">**#1B3772**</span>
 * <span style="color:#00A19A; background-color:#ccc; padding: 0 10px;">**#00A19A**</span>
 * <span style="color:#FF9C00; background-color:#ccc; padding: 0 10px;">**#FF9C00**</span>
-* <span style="color:#FFFFFF; background-color:#ccc; padding: 0 10px;">{c:#ffffff}**#FFFFFF**{/c}</span>
+* <span style="color:#FFFFFF; background-color:#ccc; padding: 0 10px;">**#FFFFFF**</span>
 
 ## Tipografia
 * **Montserrat** (regular 400, semibold 600 e bold 700)
@@ -25,7 +25,7 @@ Os arquivos e pastas deste projeto:
   ![Exemplo da fonte Montserrat](https://www.fontmirror.com/app_public/files/t/1/featured_image/2020/01/featured_1597.jpg)
 
 ## Variáveis
-```
+```css
 :root {
   --color-blue: #1B3772;
   --color-green: #00A19A;
