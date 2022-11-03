@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 389px) {
+  #participating-associations .association {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h2 {
+    font-size: 2.6rem;
+  }
+
+  body > header {
+    height: 20rem;
+    color: white;
+  }
+  body > header img {
+    display: none;
+  }
+  body > header nav {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    box-shadow: none;
+    display: block;
+    position: inherit;
+  }
+  body > header nav ul li {
+    padding: 0;
+    border: none;
+  }
+  body > header nav ul li:last-child {
+    width: 10rem;
+    text-align: center;
+    background-color: var(--color-green);
+    border-radius: .5rem;
+  }
+  body > header nav li a {
+    padding: 1.5rem 0;
+    color: white;
+    text-decoration: none;
+  }
+  body > header nav li:hover {
+    text-decoration: underline;
+    background-color: transparent;
+  }
+  body > header nav li:last-child:hover {
+    text-decoration: none;
+  }
+  body > header div span {
+    font-size: 5.2rem;
+  }
+  body > header .container nav::after {
+    content: none;
+  }
+  body > header nav ul {
+    display: block;
+    display: flex;
+    gap: 1.6rem;
+  }
+  body > header ul li a{
+    font-size: 1.6rem;
+  }
+
+  #hero {
+    padding-top: 8.2rem;
+  }
+  #hero .container > div{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  #hero .text {
+    width: 58rem;
+  }
+  #hero .text h1 {
+    font-size: 2.8rem;
+    letter-spacing: -2%;
+    margin-bottom: 4rem;
+  }
+
+  #hero .text p,
+  #about-freehelper .container .text p,
+  #participating-associations .description-cause > p {
+    line-height: 2rem;
+  }
+
+  #collected-data .graphics {
+    display: flex;
+    justify-content: space-between;
+  }
+  #collected-data .description > div {
+    display: flex;
+    gap: 14rem;
+  }
+  #collected-data .description div>div:last-child {
+    margin-top: 0;
+  }
+  #collected-data .description p {
+    text-align: center;
+    
+  }
+
+  #about-freehelper .container {
+    padding-bottom: 13.2rem;
+  }
+  #about-freehelper .container > div{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #about-freehelper .container .text {
+    width: 59.3rem;
+  }
+
+  #participating-associations .container .associations {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8rem;
+  }
+  #participating-associations .region-associations header {
+    padding-top: 6rem;
+  }
+  #participating-associations .region-associations header h3 {
+    text-align: left;
+    font-size: 2rem;
+  }
+  #participating-associations .description-cause {
+    padding-bottom: 4rem;
+  }
+  #participating-associations .association{
+    margin: 0;
+  }
+
+  #contact p,
+  #contact a span  {
+    font-size: 2.8rem;
+  }
+
+  footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  footer p {
+    font-size: 1.6rem;
+    text-align: left;
+  }
+  footer .logo img{
+    width: 16rem;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body > header {
+    height: 280px;
+  }
+}

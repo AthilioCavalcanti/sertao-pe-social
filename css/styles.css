@@ -1,0 +1,376 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,600&display=swap');
+
+/* MOBILE FIRST */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h2 {
+  font-size: 2.2rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: calc(1216px + 30px);
+  height: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: var(--color-green);
+  border-radius: .5rem;
+  text-align: center;
+}
+
+body > header {
+  height: 76px;
+  background-image: linear-gradient(0deg, #1b3772b8, #1b3772b8), url("../images/serra-talhada-rio-pajeu.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+body > header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body > header nav {
+  width: 50vw;
+  height: 100vh;
+  background-color: white;
+  box-shadow: .6rem 0rem .8rem rgba(0, 0, 0, 0.3);
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+body > header nav {
+  animation-duration: .5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    left: -50vw;
+  }
+
+  to {
+    left: 0;
+  }
+}
+
+body > header nav ul li {
+  padding: 1.5rem 0;
+  padding-left: 1.5rem;
+  border-bottom: 1px solid var(--color-blue);
+}
+
+a:focus {
+  outline-width: .2rem;
+  outline-style: solid;
+  outline-color: var(--color-orange);
+  border-radius: .5rem;
+}
+
+body > header nav ul li:last-child {
+  border: none;
+}
+
+body > header nav li a {
+  display: block;
+  color: var(--color-blue);
+  text-decoration: none;
+}
+body > header nav li:hover {
+  background-color: #ff9d00a6;
+}
+
+body > header div span {
+  width: fit-content;
+  color: white;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+#hero {
+  padding-top: 4rem;
+  color: var(--color-blue);
+}
+
+#collected-data, 
+#about-freehelper,
+#participating-associations,
+#contact,
+footer {
+  padding-top: 6rem;
+  color: var(--color-blue);
+}
+
+#hero h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#hero p {
+  margin-top: 1.8rem;
+}
+#hero div img {
+  margin: 0 auto;
+}
+
+#about-freehelper, #contact, footer {
+  background-color: var(--color-blue);
+  color: white;
+}
+#about-freehelper .logo-freehelper img{
+  width: 60%;
+  margin: 0 auto;
+}
+#about-freehelper button {
+  width: 100%;
+  height: 9.6rem;
+  margin-top: 5.4rem;
+  padding: 0 3.4rem;
+  font-size: 2.1rem;
+  color: white;
+}
+
+#collected-data .container, 
+#about-freehelper .container,
+#participating-associations .container {
+  padding-bottom: 8rem;
+}
+
+#collected-data .graphics .graphic {
+  text-align: center;
+  margin-top: 6rem;
+}
+#collected-data .graphics .graphic h3 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+#collected-data .graphics .graphic p {
+  font-size: 1.2rem;
+  margin-bottom: 5rem;
+}
+#collected-data .graphics .graphic img {
+  margin: 0 auto;
+}
+#collected-data .graphics .graphic:last-child {
+  margin-bottom: 7.2rem;
+}
+#collected-data .description>div {
+  width: fit-content;
+  margin: 0 auto;
+}
+#collected-data .description div>div {
+  display: flex;
+  gap: 1.5rem;
+}
+#collected-data .description div>div:last-child {
+  margin-top: 1.25rem;
+} 
+#collected-data .description span {
+  font-size: 1.4rem;
+}
+#collected-data .description p {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 4rem;
+}
+
+#participating-associations .region-associations header {
+  margin-bottom: 3.2rem;
+  padding-top: 6rem;
+  padding-bottom: .5rem;
+  border-bottom: .2rem solid var(--color-blue);
+}
+#participating-associations .region-associations header h3 {
+  text-align: center;
+  font-size: 1.8rem;
+}
+#participating-associations .association {
+  width: 35rem;
+  height: fit-content;
+  background-color: var(--color-orange);
+  margin: 0 auto;
+  margin-top: 6rem;
+  color: white;
+  border-radius: 1.6rem;
+  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.3);
+  padding: 2rem 1.5rem;
+}
+#participating-associations .association a:focus {
+  outline-width: .2rem;
+  outline-style: solid;
+  outline-color: white;
+  border-radius: .5rem;
+}
+#participating-associations .association .logo-association {
+  height: 25rem;
+  background-color: transparent;
+}
+
+/* Ínicio seletores temporário, apenas enquanto tiver associações sem logo */
+#participating-associations .association .logo-association div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  border: .2rem solid white;
+  border-radius: .5rem;
+}
+#participating-associations .association .logo-association div p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+#participating-associations .association .logo-association div p:last-child {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-top: 1.8rem;
+}
+/* Fim seletores temporário, apenas enquanto tiver associações sem logo */
+
+#participating-associations .association .logo-association img {
+  height: 100%;
+  margin: 0 auto;
+  filter: drop-shadow(0 0 1rem white);
+}
+#participating-associations .about-association {
+  height: 25rem;
+  margin: 1.6rem 0 2.8rem;
+}
+#participating-associations .association .about-association h4 {
+  height: 7.2rem;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+#participating-associations .association .about-association hr {
+  margin-bottom: 1.6rem;
+}
+#participating-associations .association .about-association span {
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-align: center;
+}
+#participating-associations .about-association p {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+#participating-associations .about-association p:last-child {
+  margin-bottom: 0;
+}
+#participating-associations .about-association p a {
+  color: white;
+  font-size: 1.7rem;
+}
+#participating-associations .about-association .social-networks {
+ display: flex;
+ align-items: flex-start;
+ column-gap: 2rem;
+}
+#participating-associations .about-association .social-network:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 .2rem white)
+}
+#participating-associations .association a.whatsapp {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  width: fit-content;
+  color: white;
+  border: .2rem solid white;
+  border-radius: .5rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  text-decoration: none;
+}
+#participating-associations .association a.whatsapp:hover {
+  background-color: white;
+  color: var(--color-orange);
+}
+
+#contact {
+  text-align: center;
+}
+#contact p {
+  font-size: 2rem;
+}
+#contact a {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 auto;
+  color: white;
+}
+#contact a:hover {
+  transform: scale(1.1);
+}
+#contact a span {
+  font-size: 2rem;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-bottom: 5.8rem;
+  text-align: center;
+}
+footer p {
+  font-size: 1.1rem;
+}
+footer .container p:last-child {
+  margin-top: 1.1rem;
+}
+footer .logo img{
+  width: 16rem;
+  margin: 0 auto;
+  margin-bottom: 1.8rem;
+}
+
+hr {
+  border-width: 1px;
+  border-style: solid;
+}
+
+#contact hr {
+  margin-top: 5.4rem;
+}
