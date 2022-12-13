@@ -219,7 +219,7 @@ body > header div span {
   font-size: 1.8rem;
 }
 #participating-associations .association {
-  width: 31rem;
+  width: 30rem;
   height: fit-content;
   background-color: var(--color-orange);
   margin: 0 auto;
