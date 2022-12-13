@@ -219,7 +219,7 @@ body > header div span {
   font-size: 1.8rem;
 }
 #participating-associations .association {
-  width: 35rem;
+  width: 31rem;
   height: fit-content;
   background-color: var(--color-orange);
   margin: 0 auto;
@@ -252,14 +252,14 @@ body > header div span {
   border-radius: .5rem;
 }
 #participating-associations .association .logo-association div p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 600;
   line-height: 100%;
   text-align: center;
   margin-top: 0rem;
 }
 #participating-associations .association .logo-association div p:last-child {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 400;
   line-height: 2rem;
   margin-top: 1rem;
@@ -272,35 +272,35 @@ body > header div span {
   filter: drop-shadow(0 0 1rem white);
 }
 #participating-associations .about-association {
-  height: 25rem;
+  height: 22rem;
   margin: 1rem 0 0rem;
 }
 #participating-associations .association .about-association h4 {
-  height: 7rem;
+  height: 6rem;
   display: flex;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: .2rem;
 }
 #participating-associations .association .about-association hr {
   margin-bottom: 1.6rem;
 }
 #participating-associations .association .about-association span {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
 }
 #participating-associations .about-association p {
-  font-size: 1.7rem;
-  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  margin-bottom: .5rem;
 }
 #participating-associations .about-association p:last-child {
   margin-bottom: 0;
 }
 #participating-associations .about-association p a {
   color: white;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 }
 #participating-associations .about-association .social-networks {
  display: flex;
