@@ -103,10 +103,10 @@
   }
 
   #about-freehelper .container {
-    padding-bottom: 13.2rem;
+    padding-bottom: 5.6rem;/*13.2rem;*/
   }
   #about-freehelper .container > div{
-    margin-top: 4rem;
+    margin-top: 2.4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
