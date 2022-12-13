@@ -120,7 +120,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 8rem;
+    gap: 4rem 8rem;
   }
   #participating-associations .region-associations header {
     padding-top: 6rem;
