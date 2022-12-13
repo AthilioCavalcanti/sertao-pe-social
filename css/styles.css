@@ -359,7 +359,7 @@ footer {
 footer .container {
   display: flex;
   flex-direction: column-reverse;
-  padding-bottom: 5.8rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 footer p {
